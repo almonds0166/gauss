@@ -1,4 +1,16 @@
-# Overview
+# Background
+
+A hydrogel is a gelled network of polymers with a dispersed substantial amount of water. Hydrogels have impressive properties and potential for applications. For example, hydrogels are similar to many of the viscoelastic tissues in the body required to frequently store and dissipate energy (cyclic load), suggesting biomedical applications such as replacing damaged cartilage.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Mytilus_with_byssus.jpg" alt="(Picture of mussel)" width="300"/>
+</p>
+
+In the intertidal zone of beaches, the mussel remains fixed to inorganic substrates in changing environments. This includes dry and wet environments and the cyclic load from bombardment by turbulent waves. The mussel secretes a thread called the "byssus"; the cuticles on these threads can withstand the harshness of these conditions.
+
+The [Laboratory for Bio-Inspired Interfaces](https://sites.google.com/site/holtengroup/) led by Niels Holten-Andersen studies synthetic metal-coordinating polymers inspired by the mussel's cuticles that exhibit promising mechanical properties such as self-healing and tunable viscoelastic relaxations.
+
+By combining various metal salts with catechol- or nitrocatechol-modified polyethylene-glycol (PEG) polymers, we are able to form strong, hydrophilic coordination polymer networks that mimic the properties of the mussel's cuticles. Due to the unique, metal-dopa bonds that form between the metal ion and the ligand that spontaneously reform when broken and are only slightly weaker than a covalent bond, the formed hydrogel is soft, yet can be subjected to large amounts of strain and withstand underwater conditions, just as the mussel's cuticles can.
 
 In Summer 2017 thru Fall 2018, I used UV-Vis spectroscopy to investigate the bonding behavior of telechelic metal-coordinating polymers in hydrogels under various chemical stimuli such as pH and oxidants. I did this by fitting the spectral data to a gaussian peak superposition model. This repository contains the MATLAB scripts I've used to do this.
 
@@ -74,7 +86,7 @@ The sensitivity affects by how much a peak is adjusted in the second mode and by
 
 Given `W` from `GAUSS`, plots the height of each peak versus the pH.
 
-## General functions
+## Other functions
 
 ### `COG`
 
@@ -92,29 +104,20 @@ Prints a list of choices and waits for your input. Returns your choice.
 
 Makes creating `.gifs` easier than by using GIMP or `IMWRITE` or `RBG2IND`. It takes the filename and the frame handle, then adds the frame to the `.gif`.
 
-# Background
-
-A hydrogel is a gelled network of polymers with a dispersed substantial amount of water. Hydrogels have impressive properties and potential for applications. For example, hydrogels are similar to many of the viscoelastic tissues in the body required to frequently store and dissipate energy (cyclic load), suggesting biomedical applications such as replacing damaged cartilage.
-
-![(Picture of mussel)](https://upload.wikimedia.org/wikipedia/commons/b/bc/Mytilus_with_byssus.jpg)
-In the intertidal zone of beaches, the mussel remains fixed to inorganic substrates in changing environments. This includes dry and wet environments and the cyclic load from bombardment by turbulent waves. The mussel secretes a thread called the "byssus"; the cuticles on these threads can withstand the harshness of these conditions.
-
-The [Laboratory for Bio-Inspired Interfaces](https://sites.google.com/site/holtengroup/) led by Niels Holten-Andersen studies synthetic metal-coordinating polymers inspired by the mussel's cuticles that exhibit promising mechanical properties such as self-healing and tunable viscoelastic relaxations.
-
-By combining various metal salts with catechol- or nitrocatechol-modified polyethylene-glycol (PEG) polymers, we are able to form strong, hydrophilic coordination polymer networks that mimic the properties of the mussel's cuticles. Due to the unique, metal-dopa bonds that form between the metal ion and the ligand that spontaneously reform when broken and are only slightly weaker than a covalent bond, the formed hydrogel is soft, yet can be subjected to large amounts of strain and withstand underwater conditions, just as the mussel's cuticles can.
-
 # Relevant readings
 
-In order of abstract to specific
+In order from abstract to specific
 
-* 1995, [Simultaneous decomposition of several spectra into the constituent Gaussian peaks](https://doi.org/10.1016/0003-2670(95)00354-3)
-* 1973, [The differentiation of pseudo-inverses and nonlinear least squares problems whose variables separate](https://doi.org/10.1137/0710036)
-* 1991, [Dynamics of Reversible Networks](https://www.doi.org/10.1021/ma00016a034)
-* 2004, [Visible absorption spectra of metal–catecholate and metal–tironate complexes](https://doi.org/10.1039/B315811J)
-* 2006, [Absorption spectroscopy and binding constants for first-row transition metal complexes of a DOPA-containing peptide](https://www.doi.org/10.1039/B509586G)
-* 2013, [Versatile tuning of supramolecular hydrogels through metal complexation of oxidation-resistant catecholinspired ligands](https://doi.org/10.1039/C3SM51824H)
-* 2016, [Controlling Hydrogel Mechanics *via* Bio-Inspired Polymer−Nanoparticle Bond Dynamics](https://doi.org/10.1021/acsnano.5b06692)
-* 2011, [pH-induced metal-ligand cross-links inspired by mussel yield self-healing polymer networks with near-covalent elastic moduli](https://doi.org/10.1073/pnas.1015862108)
+Year | Article title
+:---: | ---
+1995 | [Simultaneous decomposition of several spectra into the constituent Gaussian peaks](https://doi.org/10.1016/0003-2670(95)00354-3)
+1973 | [The differentiation of pseudo-inverses and nonlinear least squares problems whose variables separate](https://doi.org/10.1137/0710036)
+1991 | [Dynamics of Reversible Networks](https://www.doi.org/10.1021/ma00016a034)
+2004 | [Visible absorption spectra of metal–catecholate and metal–tironate complexes](https://doi.org/10.1039/B315811J)
+2006 | [Absorption spectroscopy and binding constants for first-row transition metal complexes of a DOPA-containing peptide](https://www.doi.org/10.1039/B509586G)
+2013 | [Versatile tuning of supramolecular hydrogels through metal complexation of oxidation-resistant catecholinspired ligands](https://doi.org/10.1039/C3SM51824H)
+2016 | [Controlling Hydrogel Mechanics *via* Bio-Inspired Polymer−Nanoparticle Bond Dynamics](https://doi.org/10.1021/acsnano.5b06692)
+2011 | [pH-induced metal-ligand cross-links inspired by mussel yield self-healing polymer networks with near-covalent elastic moduli](https://doi.org/10.1073/pnas.1015862108)
 
 
 
