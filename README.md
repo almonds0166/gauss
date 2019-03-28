@@ -22,7 +22,7 @@ Most of the files are well-documented in the sense that you may type, for exampl
 
 ### `CSV2MATRIX` and `UVVIS`
 
-Both `CSV2MATRIX` and `UVVIS` convert a `.csv` file from the [DeNovix UV-Vis spectrophotometer](https://www.denovix.com/ds-11-fx-spectrophotometer-fluorometer/) into a matrix. The former is an earlier and bulkier version of the latter, added for completeness. The matrix returned is used in several of the functions here including `SPEC`, `GAUSS`, and `DECOMP`.
+Both `CSV2MATRIX` and `UVVIS` convert a `.csv` file from the [Denovix DS-11 FX+](https://www.denovix.com/ds-11-fx-spectrophotometer-fluorometer/) spectrophotometer into a matrix. The former is an earlier and bulkier version of the latter, added for completeness. The matrix returned is used in several of the functions here including `SPEC`, `GAUSS`, and `DECOMP`.
 
 ### `SPEC`
 
