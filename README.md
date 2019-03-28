@@ -16,7 +16,7 @@ In Summer 2017 thru Fall 2018, I used UV-Vis spectroscopy to investigate the bon
 
 # Functions
 
-Most of the files are well-documented in the sense that you may type, e.g. `help gauss`, to see the documentation in MATLAB's command window. Additionally, the files are briefly described below as well as a bit in [this presentation](https://drive.google.com/file/d/1istZ8gzPNU0de1oDi6_1fh67RGW8jslc/view?usp=sharing). Nevertheless, if something is unclear, feel free to reach out to me.
+Most of the files are well-documented in the sense that you may type, for example, `help gauss`, to see the documentation in MATLAB's command window. Additionally, you may find [this presentation](https://drive.google.com/file/d/1vh-4HtvfD9xv386wWxktRjqMMYsPzDgp/view?usp=sharing) helpful. Nevertheless, if something is unclear, feel free to reach out to me.
 
 ## Research-specific functions
 
