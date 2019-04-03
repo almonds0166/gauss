@@ -1,22 +1,24 @@
+# Quick overview
+
+In Summer thru Fall 2017, I used UV-Vis spectroscopy to investigate the bonding behavior of telechelic metal-coordinating polymers in hydrogels under various chemical stimuli such as pH and oxidants. I did this by fitting the spectral data to a gaussian peak superposition model. This repository contains the MATLAB scripts I've used to do this.
+
 # Background
 
-A hydrogel is a gelled network of polymers with a dispersed substantial amount of water. Hydrogels have impressive properties and potential for applications. For example, hydrogels are similar to many of the viscoelastic tissues in the body required to frequently store and dissipate energy (cyclic load), suggesting biomedical applications such as replacing damaged cartilage.
+A hydrogel is a gelled network of polymers with a dispersed substantial amount of water. They have impressive properties and potential for applications -- for example, hydrogels are similar to many of the viscoelastic tissues in the body required to frequently store and dissipate energy (cyclic load), suggesting biomedical applications like replacing damaged cartilage.
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Mytilus_with_byssus.jpg" alt="(Picture of mussel)" width="300"/>
 </p>
 
-In the intertidal zone of beaches, the mussel remains fixed to inorganic substrates in changing environments. This includes dry and wet environments and the cyclic load from bombardment by turbulent waves. The mussel secretes a thread called the "byssus"; the cuticles on these threads can withstand the harshness of these conditions.
+In the intertidal zone of beaches, mussels, like the one shown here, remain fixed to inorganic substrates in changing environments. This includes wet and dry environments and the cyclic load from bombardment by turbulent waves. The mussel secretes a thread called the "byssus"; the cuticles on these byssal threads can remarkably withstand the harshness of these conditions.
 
-The [Laboratory for Bio-Inspired Interfaces](https://sites.google.com/site/holtengroup/) led by Niels Holten-Andersen studies synthetic metal-coordinating polymers inspired by the mussel's cuticles that exhibit promising mechanical properties such as self-healing and tunable viscoelastic relaxations.
+Inspired by the mussel's cuticles, the [Laboratory for Bio-Inspired Interfaces](https://sites.google.com/site/holtengroup/) led by Niels Holten-Andersen studies synthetic metal-coordinating polymers that exhibit promising mechanical properties such as self-healing and tunable viscoelastic relaxations.
 
-By combining various metal salts with catechol- or nitrocatechol-modified polyethylene-glycol (PEG) polymers, we are able to form strong, hydrophilic coordination polymer networks that mimic the properties of the mussel's cuticles. Due to the unique, metal-dopa bonds that form between the metal ion and the ligand that spontaneously reform when broken and are only slightly weaker than a covalent bond, the formed hydrogel is soft, yet can be subjected to large amounts of strain and withstand underwater conditions, just as the mussel's cuticles can.
-
-In Summer 2017 thru Fall 2018, I used UV-Vis spectroscopy to investigate the bonding behavior of telechelic metal-coordinating polymers in hydrogels under various chemical stimuli such as pH and oxidants. I did this by fitting the spectral data to a gaussian peak superposition model. This repository contains the MATLAB scripts I've used to do this.
+To go deeper into the details: by combining various metal salts with catechol- or nitrocatechol-modified polyethylene-glycol (PEG) polymers, we are able to form strong, hydrophilic coordination polymer networks that impressively mimic the properties of the mussel's cuticles. Due to the unique, metal-dopa bonds that form between the metal ion and the ligand that spontaneously reform when broken and are only slightly weaker than a covalent bond, the formed hydrogel is soft, yet can be subjected to large amounts of strain and withstand underwater conditions, just as the mussel's cuticles can.
 
 # Functions
 
-Most of the files are well-documented in the sense that you may type, for example, `help gauss`, to see the documentation in MATLAB's command window. Additionally, you may find [this presentation](https://drive.google.com/file/d/1vh-4HtvfD9xv386wWxktRjqMMYsPzDgp/view?usp=sharing) helpful. Nevertheless, if something is unclear, feel free to reach out to me.
+As for the functions, most of the files are well-documented in the sense that you may type, for example, `help gauss`, to see the documentation in MATLAB's command window. Additionally, you may find [this presentation](https://drive.google.com/file/d/1vh-4HtvfD9xv386wWxktRjqMMYsPzDgp/view?usp=sharing) helpful. Nevertheless, if something is unclear, feel free to reach out to me.
 
 ## Research-specific functions
 
@@ -106,7 +108,7 @@ Makes creating `.gifs` easier than by using GIMP or `IMWRITE` or `RBG2IND`. It t
 
 # Relevant readings
 
-In order from abstract to specific
+In order from most abstract to most specific
 
 Year | Article title
 :---: | ---
